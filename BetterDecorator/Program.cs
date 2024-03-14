@@ -25,6 +25,7 @@ namespace BetterDecorator
                 string decoString = args[0];
                 char decoChar = char.Parse(args[1]);
                 int decoint = int.Parse(args[2]);
+                
                 Console.WriteLine( Decor(decoString, decoChar, decoint));
             }
         }
