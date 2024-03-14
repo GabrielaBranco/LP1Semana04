@@ -14,7 +14,7 @@ namespace BetterDecorator
         }
         private static string Decor ( string s , char dec, int o)
         {
-            string deco = new string(dec, o);
+            string deco = new string(dec, o); // (char, number of times it repeats)
             return $"{deco} {s} {deco}";
         }
     }
